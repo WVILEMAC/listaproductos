@@ -11,26 +11,14 @@
         android:layout_height="wrap_content">
 
 
+        <ImageView
+            android:id="@+id/logoNikyStore"
+            android:layout_width="421dp"
+            android:layout_height="176dp"
+            android:padding="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logotienda" />
 
-            <ImageView
-                android:id="@+id/logoNikyStore"
-                android:layout_width="421dp"
-                android:layout_height="176dp"
-                android:padding="16dp"
-                android:scaleType="fitCenter"
-                android:src="@drawable/store" />
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="40sp"
-            android:layout_gravity="end"
-            android:gravity="end|bottom"
-            android:padding="8dp"
-            android:text="By Equipo Dinamita"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
-            android:textColor="@android:color/black"
-            android:textSize="18sp" />
 
         <HorizontalScrollView
             android:layout_width="match_parent"
